@@ -1,0 +1,46 @@
+# Terraform / Infra
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+*.tfplan.*
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Keep lockfile tracked for reproducibility
+ .terraform.lock.hcl
+
+# Variables and secrets
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+*.pem
+*.key
+*.cer
+*.crt
+*.pfx
+*.ppk
+*.env
+*.env.*
+credentials.json
+secrets/
+
+# SSH keys
+id_rsa
+id_rsa.pub
+*.ssh/
+
+# Logs and runtime artifacts
+*.log
+*.out
+
+# Editor / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
