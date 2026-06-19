@@ -3,11 +3,6 @@ variable "compartment_id" {
   type        = string
 }
 
-variable "image_id" {
-  description = "OCID da imagem da VM (ex.: Oracle Linux ou Ubuntu)"
-  type        = string
-}
-
 variable "ssh_public_key" {
   description = "Chave pública SSH para acesso à VM"
   type        = string
@@ -22,13 +17,13 @@ variable "shape" {
 variable "ocpus" {
   description = "Quantidade de OCPUs para a instância Flex"
   type        = number
-  default     = 4
+  default     = 1
 }
 
 variable "memory_in_gbs" {
   description = "Memória RAM em GB para a instância Flex"
   type        = number
-  default     = 24
+  default     = 6
 }
 
 variable "k3s_version" {
