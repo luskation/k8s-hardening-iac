@@ -31,13 +31,13 @@ variable "shape" {
 
 variable "ocpus" {
   type        = number
-  default     = 4
+  default     = 1
   description = "Quantidade de OCPUs para a instância Flex"
 }
 
 variable "memory_in_gbs" {
   type        = number
-  default     = 24
+  default     = 6
   description = "Quantidade de memória RAM em GB para a instância Flex"
 }
 
