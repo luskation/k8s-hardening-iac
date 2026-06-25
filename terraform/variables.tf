@@ -23,7 +23,7 @@ variable "ocpus" {
 variable "memory_in_gbs" {
   description = "Memória RAM em GB para a instância Flex"
   type        = number
-  default     = 6
+  default     = 4
 }
 
 variable "k3s_version" {

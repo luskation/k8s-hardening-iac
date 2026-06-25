@@ -44,3 +44,4 @@ id_rsa.pub
 .idea/
 .DS_Store
 Thumbs.db
+kubeconfig.yaml

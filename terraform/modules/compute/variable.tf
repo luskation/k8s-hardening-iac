@@ -37,7 +37,7 @@ variable "ocpus" {
 
 variable "memory_in_gbs" {
   type        = number
-  default     = 6
+  default     = 4
   description = "Quantidade de memória RAM em GB para a instância Flex"
 }
 
