@@ -1,5 +1,3 @@
-# k8s-hardening-iac
-
 > Infrastructure as Code + Kubernetes hardening usando Terraform, K3s e ferramentas de segurança nativas — rodando na Oracle Cloud Free Tier.
 
 ---
